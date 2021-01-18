@@ -27,15 +27,13 @@ const tiktod = require('tiktok-scraper')
 const ffmpeg = require('fluent-ffmpeg')
 const { removeBackgroundFromImageFile } = require('remove.bg')
 const welkom = JSON.parse(fs.readFileSync('./src/welkom.json'))
-const _leveling = JSON.parse(fs.readFileSync('./database/leveling.json'))
-const _level = JSON.parse(fs.readFileSync('./database/level.json'))
 const nsfw = JSON.parse(fs.readFileSync('./src/nsfw.json'))
 const samih = JSON.parse(fs.readFileSync('./src/simi.json'))
 const vcard = 'BEGIN:VCARD\n' 
             + 'VERSION:3.0\n' 
-            + 'FN:Admin Ainebot\n' 
-            + 'ORG: Pengembang AINEBOT;\n' 
-            + 'TEL;type=CELL;type=VOICE;waid=62895330379186:+62 895-3303-79186\n' 
+            + 'FN:Fadhli\n' 
+            + 'ORG: @itspapoy;\n' 
+            + 'TEL;type=CELL;type=VOICE;waid=6287714745440:+62 877-1474-5440\n' 
             + 'END:VCARD' 
 prefix = '!'
 blocked = []          
